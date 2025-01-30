@@ -10,13 +10,13 @@ print(all(user.values()))
 
 ## Analyse du code
 
-    La variable user est un dictionnaire contenant quatre clés : "name", "age", "city", et "email".
-    La fonction all(iterable) retourne True si toutes les valeurs de l'itérable sont évaluées comme True en contexte booléen. Sinon, elle retourne False.
-    Les valeurs du dictionnaire sont :
-        "John" → True (chaîne non vide)
-        30 → True (nombre différent de 0)
-        ... (Ellipsis) → ⚠️ Problème potentiel
-        "john@exemple.com" → True (chaîne non vide)
+La variable user est un dictionnaire contenant quatre clés : "name", "age", "city", et "email".
+La fonction all(iterable) retourne True si toutes les valeurs de l'itérable sont évaluées comme True en contexte booléen. Sinon, elle retourne False.
+Les valeurs du dictionnaire sont :
+* "John" → True (chaîne non vide)
+* 30 → True (nombre différent de 0)
+* ... (Ellipsis) → ⚠️ Problème potentiel
+* "john@exemple.com" → True (chaîne non vide)
 
 Comportement de Ellipsis (...) en Python
 
