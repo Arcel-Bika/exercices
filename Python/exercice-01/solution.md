@@ -5,7 +5,8 @@
 ```python
 user: dict = {"name": "John", "age": 30, "city": ..., "email": "john@exemple.com"}
 
-print(all(user.values()))```
+print(all(user.values()))
+```
 
 ## Analyse du code
 
