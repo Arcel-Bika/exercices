@@ -1,5 +1,5 @@
 """
-Global Tech - Python - Exercice 01
+Global Tech - Python - Exercice 02
 """
 
 my_list = [1, 2, 3]
